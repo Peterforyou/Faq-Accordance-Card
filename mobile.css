@@ -1,0 +1,76 @@
+body {
+      height: 120vh;
+      margin: auto;
+}
+.container {
+background-color: #fff;
+max-width: 30rem;
+margin: 5rem auto;
+margin-top: 10rem;
+padding-top: 1rem;
+height: 100vh;
+width: 30rem;
+/* overflow: hidden; */
+padding-left: 1rem;
+padding-right: 1rem;
+border-radius: 1rem;
+margin: 0rem auto;
+}
+.content {
+display: grid;
+grid-template-columns: 1fr;
+padding: 0rem 0rem;
+grid-gap: 0rem 0rem; 
+}
+.box-2 {
+line-height: 4rem;
+}
+h1 {
+text-align: center;
+margin-top: 10rem;
+}
+p {
+width: 85%;
+font-size: 1.5rem;
+line-height: 2rem;
+padding-bottom: 1.5rem;
+}
+summary {
+font-size: 1.5rem;
+line-height: 3rem;
+width: 90%;
+}
+summary::after {
+content: url(./images/icon-arrow-down.svg);
+transform: scale(1.2);
+position: absolute;
+right: -2rem;
+top: 0;
+transition: all .5s;
+}
+#cube {
+position: relative;
+max-width: 35rem;
+margin: 1rem auto;
+height: 110vh;
+width: 30rem;
+margin: 5rem auto;
+margin-top: 15rem;
+margin-bottom: 1rem;
+}
+#cube::after {
+content: url(./images/illustration-woman-online-mobile.svg);
+position: absolute;
+top: -9.5rem;
+left: 4rem;
+width: 70%;
+}
+.img-3 {
+display: none;
+}
+.img-2 {
+width: 95%;
+position: absolute;
+top:  -17rem;
+left: 0.5rem;
+}

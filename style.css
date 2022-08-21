@@ -1,0 +1,100 @@
+  * {
+      padding: 0rem;
+      margin: 0rem;
+      box-sizing: border-box;
+    }
+    html {
+      font-size: 62.5%;
+    }
+    body {
+      font-family: 'Kumbh Sans', sans-serif;
+      background: linear-gradient(to bottom, hsl(273, 75%, 66%), 20%, hsl(240, 73%, 65%)) no-repeat;
+      height: 100vh;
+    }
+    .container {
+      background-color: #fff;
+      max-width: 90rem;
+      margin: 8rem auto;
+      height: 60vh;
+      width: 70rem;
+      overflow: hidden;
+      border-radius: 1rem;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 2rem 3rem;
+      grid-gap: 0rem 4rem;
+      
+    }
+    .box {
+      position: relative;
+    }
+    #cube {
+      position: relative;
+      /* max-width: 90rem; */
+      max-width: 95rem;
+      margin: 8rem auto;
+      height: 65vh;
+      width: 80rem;
+    }
+    #cube::after {
+      content: url(./images/illustration-box-desktop.svg);
+      position: absolute;
+      top: 10.5rem;
+      left: -4rem;
+    }
+    .img-2 {
+      width: 250%;
+      position: absolute;
+      top: -29rem;
+      left: -52rem;
+    }
+    .img-3 {
+      width: 98%;
+      position: absolute;
+      top: 3rem;
+      left: -7rem;
+    }
+    h1 {
+      padding-top: 4rem;
+      padding-bottom: 1.5rem;
+      font-size: 4rem;
+    }
+    .box-2 {
+      line-height: 2rem;
+    }
+    details {
+      border-bottom: #ddd solid 1px;
+      outline: none !important;
+    }
+    summary {
+      list-style: none;
+      font-size: 1.1rem;
+      position: relative;
+      padding: 0.6rem 0rem;
+      font-weight: 500;
+      outline: none !important;
+    }
+    p {
+      font-weight: 400;
+      line-height: 1.5rem;
+      width: 25rem;
+    }
+    summary::after {
+      content: url(./images/icon-arrow-down.svg);
+      transform: scale(1.2);
+      position: absolute;
+      right: 2rem;
+      transition: all .5s;
+    }
+    summary:hover {
+      color: hsl(14, 88%, 65%);
+    }
+    details[open] summary::after {
+      transform: rotate(-180deg);
+    }
+    details[open] summary {
+      font-weight: 900;
+      color: #000;
+    }
