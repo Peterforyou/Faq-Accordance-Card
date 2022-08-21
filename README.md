@@ -21,7 +21,7 @@ This is a task from Frontend Mentor to build a Faq Accordance Car Main to aid my
 
 ### Links
 
-- Live Site URL:(https://peterforyou.github.io/Single-preview-card-/)
+- Live Site URL:(https://peterforyou.github.io/Faq-Accordance-Card/)
 
 ### Built with
 
